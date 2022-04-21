@@ -1,7 +1,7 @@
 # CRUD-opration-Using-MySql-and-express
 this app achieve the next objectives :
 **Creat API to:
-1-GetAllUser
+1-GetAllUser /n
 2-AddUser
 3-UpdateByID
 4-DeleteByID
