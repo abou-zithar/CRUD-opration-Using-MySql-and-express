@@ -10,7 +10,7 @@ let adduser=(req,res)=>{
             res.json({massage:'user already exist'})
         }
         else{
-            mySql.execute(`INSERT INTO users( name, email, age) VALUES ('${name}','${email}',${age})`,(err,data)=>{
+            MySql.execute(`INSERT INTO users( name, email, age,password) VALUES ('${name}','${email}',${age},'${password}')`,(err,data)=>{
                 console.log(data);
             })
             res.send('user added')
